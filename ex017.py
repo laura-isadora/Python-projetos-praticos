@@ -1,6 +1,6 @@
-print('-' * 23)
-print('ANALISANDO TRIÂNGULOS')
-print('-' * 23)
+print('\033[35m-\033[m' * 23)
+print('\033[4;35mANALISANDO TRIÂNGULOS\033[m')
+print('\033[35m-\033[m' * 23)
 
 # solicitar as medidas das retas ao usuário
 r1 = float(input('\nDigite o primeiro segmento: '))
